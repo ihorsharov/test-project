@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    span {
+      font-family: "AvenirNextforINTUIT-Bold", sans-serif;
+      font-size: 27px;
+    }
+  }
+
+  .navigation {
+    nav {
+      a {
+        font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #306fd5;
+        }
+
+        &:not(:last-child) {
+          margin-right: 42px;
+        }
+      }
+
+      .active-link {
+        color: #306fd5
+      }
+    }
+  }
+
+  .login-block {
+    button {
+      font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+      font-size: 17px;
+      border: none;
+      width: 137px;
+      height: 48px;
+      padding: 8px 12px;
+      border-radius: 30px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    .login-button {
+      border: 1px solid #000;
+      color: #000;
+    }
+
+    .register-button {
+      background-color: #306fd5;
+      color: #fff;
+
+      img {
+        margin-left: 5px;
+        height: 12px;
+      }
+    }
+  }
+}

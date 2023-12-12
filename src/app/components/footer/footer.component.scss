@@ -1,0 +1,36 @@
+hr {
+  width: 99.9%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  height: 1px;
+  background-color: #f2f8fd;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+  font-size: 15px;
+  padding: 33px 0;
+
+  .contacts {
+    display: flex;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 8px;
+      }
+    }
+
+    .phone {
+      margin-left: 20px;
+    }
+  }
+}

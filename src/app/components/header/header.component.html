@@ -1,0 +1,28 @@
+<header>
+  <div class="logo">
+    <img src="../../../assets/img/logo.svg" alt="Logo" />
+    <span>Test Project</span>
+  </div>
+  <div class="navigation">
+    <nav>
+      <a
+        routerLink="/"
+        routerLinkActive="active-link"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+      <a routerLink="/about" routerLinkActive="active-link">About</a>
+      <a routerLink="/pricing" routerLinkActive="active-link">Pricing</a>
+      <a routerLink="#" routerLinkActive="active-link">Videos</a>
+      <a routerLink="#" routerLinkActive="active-link">Testimonials</a>
+      <a routerLink="#" routerLinkActive="active-link">Contact</a>
+    </nav>
+  </div>
+  <div class="login-block">
+    <button class="login-button">Login</button>
+    <button class="register-button">
+      <span>Register</span>
+      <img src="../../../assets/img/arrow-white.svg" alt="arrow" />
+    </button>
+  </div>
+</header>

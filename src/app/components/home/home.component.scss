@@ -1,0 +1,154 @@
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+  .banner-section {
+    max-width: 430px;
+    flex: 1;
+
+    h2 {
+      font-family: "AvenirNextforINTUIT-Bold";
+      font-size: 46px;
+      margin: 10px 0;
+    }
+
+    .description {
+      font-family: "AvenirNextforINTUIT-Bold";
+      font-size: 19px;
+    }
+
+    .get-started {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .get-started-btn {
+        font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+        font-size: 17px;
+        border: none;
+        width: 178px;
+        height: 48px;
+        padding: 8px 12px;
+        border-radius: 30px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #306fd5;
+
+        img {
+          margin-left: 5px;
+          height: 12px;
+        }
+      }
+
+      .check-text {
+        display: flex;
+        align-items: center;
+        font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+        font-size: 17px;
+
+        img {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  section {
+    text-align: left;
+  }
+
+  .video-section {
+    position: relative;
+
+    .play-button-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    img {
+      max-width: 800px;
+      height: auto;
+      border-radius: 30px;
+    }
+  }
+}
+
+.advantages-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+
+  .advantages-container {
+    h3 {
+      font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+      font-size: 29px;
+      max-width: 480px;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card {
+      width: 180px;
+      margin-right: 20px;
+      text-align: left;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .card p {
+      margin: 15px 0;
+      font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+      font-size: 17px;
+    }
+  }
+
+  .qrcode-container {
+    max-width: 220px;
+    background: #f2f8fd;
+    padding: 20px;
+    font-family: "AvenirNextforINTUIT-Regular", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+    h4 {
+      b {
+        color: #1ce8cf;
+      }
+    }
+
+    .stores {
+      img {
+        width: 105px;
+
+        &:first-child {
+          margin-right: 9px;
+        }
+      }
+    }
+
+    .qrcodes {
+      img {
+        height: 105px;
+        width: 105px;
+        margin-top: 15px;
+
+        &:first-child {
+          margin-right: 9px;
+        }
+      }
+    }
+  }
+}
